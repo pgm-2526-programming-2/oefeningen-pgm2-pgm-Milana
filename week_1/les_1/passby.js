@@ -20,9 +20,10 @@ function addFiveToNumber(a=0){
 addFiveToNumber(2)
 console.log('totaal:',total)
 
-function doubleNumber(num){
-    num = num * 2
-    console?log(('binnen functie: ', num))
+function doubleNumber(num) {
+    const newNumberInMemory = 5
+    num = num * 2;
+    console.log('Binnen functie: ', num);
 }
 
 function doubleNumberWithReeference(obj){
