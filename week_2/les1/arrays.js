@@ -102,7 +102,7 @@ colors.shift("begin verwijderen")
 
 console.log('numbers', numbers)
 const doubleNumbers = numbers.map((value, index) => {
-    return value * 2
+    return value * 2;
 })
 
 console.log('Double Numbers', doubleNumbers)
